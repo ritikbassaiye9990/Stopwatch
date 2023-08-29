@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.container{
+    width: 800px;
+    margin: 40px auto;
+    color: white;
+    text-align: center;   
+}
+
+#heading{
+    color: aquamarine;
+}
+
+h1,
+h2,
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+}
+
+#seconds,
+#ten{
+    font-size: 3em;
+}
+
+button{
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    background: none;
+    color: white;
+    border: none;
+    background-color: var(--clr);
+    border-radius: 8px;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;    
+}
+
+button:hover{
+    background: white;
+    color: aquamarine;
+    font-weight: 800;
+    text-transform: capitalize;
+}
